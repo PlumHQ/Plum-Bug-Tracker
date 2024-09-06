@@ -8,6 +8,8 @@ $g_path="https://bugtracker.plumhq.com/";
 $g_reauthentication_expiry = 60 * 60;
 
 $g_custom_headers = array( 'Content-Security-Policy:' );
+$g_bug_report_page_fields = array('category_id','view_state','reproducibility','summary','description','additional_info',
+'attachments','due_date');
 
 $g_phpMailer_method = PHPMAILER_METHOD_SMTP;
 $g_smtp_port= 587;
